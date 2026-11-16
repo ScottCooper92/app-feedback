@@ -4,6 +4,7 @@ Bug reports and feature requests for these apps:
 
 | App | Label | Report a bug | Request a feature |
 |---|---|---|---|
+| Binge | `app: binge` | [Bug report](../../issues/new?template=binge-bug.yml) | [Feature request](../../issues/new?template=binge-feature.yml) |
 | Seerr Companion | `app: seerr` | [Bug report](../../issues/new?template=seerr-bug.yml) | [Feature request](../../issues/new?template=seerr-feature.yml) |
 | Ephyra | `app: ephyra` | [Bug report](../../issues/new?template=ephyra-bug.yml) | [Feature request](../../issues/new?template=ephyra-feature.yml) |
 
@@ -23,6 +24,6 @@ Everything here is public. Do not post your server's address, an API key, or any
 
 1. Add an `app: <id>` label.
 2. Add `<id>-bug.yml` and `<id>-feature.yml` under `.github/ISSUE_TEMPLATE/`, copied from an existing
-   app. Keep the field ids (`what-happened`, `steps`, `server`, `app-version`, `device`,
-   `android-version`), because the apps fill them in from the URL.
+   app. Keep the field ids the app fills in from the URL (`what-happened`, `steps`, `server`,
+   `app-version`, `device`, `android-version`; Binge also sends `platform`, `problem` and `idea`).
 3. Add a row to the table above.

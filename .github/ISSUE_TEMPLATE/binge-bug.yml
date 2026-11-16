@@ -1,0 +1,51 @@
+name: "Binge: bug report"
+description: Something in Binge does not work as expected.
+labels: ["bug", "app: binge"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping improve Binge. Please do not include private account details, passwords, or tokens — issues here are public.
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: What did you do, and what went wrong?
+      placeholder: I opened a TV show and the poster never loaded.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Go to '...'
+        2. Select '...'
+        3. See the error
+    validations:
+      required: false
+  - type: dropdown
+    id: platform
+    attributes:
+      label: Where did this happen?
+      options:
+        - Phone / tablet
+        - Android TV
+        - Not sure
+    validations:
+      required: true
+  - type: input
+    id: app-version
+    attributes:
+      label: App version
+      description: Account tab shows the version at the bottom.
+      placeholder: "1.2.4"
+    validations:
+      required: false
+  - type: input
+    id: device
+    attributes:
+      label: Device
+      placeholder: Pixel 7 / NVIDIA SHIELD / Android 14
+    validations:
+      required: false
