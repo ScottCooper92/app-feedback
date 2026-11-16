@@ -1,0 +1,21 @@
+name: "Seerr Companion: feature request"
+description: Suggest an idea or improvement for Seerr Companion.
+labels: ["enhancement", "app: seerr"]
+body:
+  - type: markdown
+    attributes:
+      value: This issue is public. Do not include your server's address, your API key or anyone's name.
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem does this solve?
+      description: What are you trying to do that Seerr Companion makes hard today?
+    validations:
+      required: true
+  - type: textarea
+    id: idea
+    attributes:
+      label: Your idea
+      description: What would you like Seerr Companion to do?
+    validations:
+      required: true

@@ -1,0 +1,21 @@
+name: "Ephyra: feature request"
+description: Suggest an idea or improvement for Ephyra.
+labels: ["enhancement", "app: ephyra"]
+body:
+  - type: markdown
+    attributes:
+      value: This issue is public. Do not include your server's address, your API key or anyone's name.
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem does this solve?
+      description: What are you trying to do that Ephyra makes hard today?
+    validations:
+      required: true
+  - type: textarea
+    id: idea
+    attributes:
+      label: Your idea
+      description: What would you like Ephyra to do?
+    validations:
+      required: true

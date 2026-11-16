@@ -1,0 +1,49 @@
+name: "Ephyra: bug report"
+description: Something in Ephyra does not work as it should.
+labels: ["bug", "app: ephyra"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        The app fills in the version and device fields when you report from it.
+        This issue is public. Do not include your server's address, your API key or anyone's name.
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened
+      description: What you did, what you expected, and what happened instead.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Open …
+        2. Tap …
+  - type: input
+    id: title
+    attributes:
+      label: Title
+      description: The movie or show, and the episode, if the bug is about one title.
+      placeholder: Severance S1 E1
+  - type: input
+    id: server
+    attributes:
+      label: Server
+      description: Jellyfin and its version, shown in the app's Server row.
+      placeholder: Jellyfin 10.10.7
+  - type: input
+    id: app-version
+    attributes:
+      label: App version
+    validations:
+      required: true
+  - type: input
+    id: device
+    attributes:
+      label: Device
+  - type: input
+    id: android-version
+    attributes:
+      label: Android version
