@@ -20,9 +20,11 @@ The apps' privacy policies are published from this repository:
 - Seerr Companion: https://scottcooper92.github.io/app-feedback/seerr/privacy/
 - Ephyra: https://scottcooper92.github.io/app-feedback/ephyra/privacy/
 
-This repository's copy is the published one. A change to an app's privacy policy is made here, in
-`docs/<app>/privacy/index.md`, and goes live when it merges to `main`. The site (index page and
-policies) lives in `docs/`.
+The published pages are copies of each app's own privacy policy, synced by an automated pull request
+from the app's repository when its policy changes; the copy goes live when that PR merges to `main`.
+Do not edit a policy here by hand: change it in the app, and the sync brings it over. The front
+matter and the "Last updated / Change history" header on each page belong to this site, and the sync
+keeps them. The site (index page and policies) lives in `docs/`.
 
 ## How issues are handled
 
