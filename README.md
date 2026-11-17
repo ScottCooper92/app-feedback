@@ -13,6 +13,19 @@ version and device already filled in.
 
 Everything here is public. Do not post your server's address, an API key, or anyone's name.
 
+## Privacy policies
+
+The apps' privacy policies are published from this repository:
+
+- Seerr Companion: https://scottcooper92.github.io/app-feedback/seerr/privacy/
+- Ephyra: https://scottcooper92.github.io/app-feedback/ephyra/privacy/
+
+The published pages are copies of each app's own privacy policy, synced by an automated pull request
+from the app's repository when its policy changes; the copy goes live when that PR merges to `main`.
+Do not edit a policy here by hand: change it in the app, and the sync brings it over. The front
+matter and the "Last updated / Change history" header on each page belong to this site, and the sync
+keeps them. The site (index page and policies) lives in `docs/`.
+
 ## How issues are handled
 
 - Each form adds the app's label, so every issue belongs to exactly one app.
