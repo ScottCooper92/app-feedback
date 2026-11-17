@@ -9,8 +9,7 @@ permalink: /seerr/privacy/
 
 *Seerr Companion* ("the app") is an administration console for a Seerr, Jellyseerr or
 Overseerr server that you run. This policy describes what the app stores, where it sends it, and
-what it does not do. It is written to be checked against the source code, which is public at
-https://github.com/ScottCooper92/binge-seerr.
+what it does not do.
 
 ## What the app stores on your device
 
@@ -190,8 +189,7 @@ The app is a server administration tool and is not directed at children.
 
 ## Changes
 
-This policy changes when the app's behaviour changes, in the same change, and its history is the
-repository's history.
+This policy changes when the app's behaviour changes, and its history is this page's change history (linked at the top).
 
 ## Contact
 
