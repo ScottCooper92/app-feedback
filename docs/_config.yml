@@ -1,0 +1,8 @@
+title: App feedback
+url: https://scottcooper92.github.io
+baseurl: /app-feedback
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+plugins: []
